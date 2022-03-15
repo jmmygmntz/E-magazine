@@ -1,0 +1,46 @@
+* {
+  padding: 1em;
+  background-color: #29294e;
+}
+
+.image1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: left;
+}
+
+p {
+  color: orange;
+  text-align: center;
+}
+
+.image2 {
+  float: right;
+}
+
+li {
+  color: orange;
+  list-style-position: inside;
+}
+
+button {
+  padding: 6px 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid white;
+  cursor: pointer;
+  font-family: 'Times New Roman';
+  font-size: small;
+  color: white;
+  background-color: orangered;
+}
+
+button:hover {
+  color: #29294e;
+}
+
+h2 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

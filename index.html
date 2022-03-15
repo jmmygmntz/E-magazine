@@ -1,12 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Happy Path</title>
+    <style>
+        
+        
+        nav {
+            width: 50%;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: ease;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        
+        .content {
+            width: 700px;
+            height: auto;
+            margin: auto;
+            color: rgb(41, 41, 78);
+            position: relative;
+            float: inline-end;
+        }
+        .content p {
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-family: Arial;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+        }
+        .content h1 {
+            font-family: 'Times New Roman',;
+            font-size: 50px;
+            margin-top: 20%;
+            letter-spacing: 2px;
+        }
+        .content span {
+            color: orangered;
+            font-size: 60px;
+        }
+        h2 {
+            color: rgb(41, 41, 78);
+            margin-left: 50px;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        @media screen and (max-width:1200px) {
+            nav {
+                width: 30%;
+                height: 100px;
+            }
+            nav ul {
+                margin-left: 10px;
+            }
+            nav ul li {
+                margin-left: 60px;
+            }
+            nav ul li a {
+                font-size: 1.6vh;
+            }
+            .content {
+                width: 100%;
+            }
+            .content h1, .content span {
+                font-size: 4.5vw;
+            }
+            .content p {
+                width: 90%;
+                font-size: 1.5vw;
+            }
+        }
+        @media screen and (max-width:830px) {
+            nav {
+                width: 10%;
+                height: 100px;
+            }
+            nav ul {
+                margin-left: 10px;
+            }
+            nav ul li {
+                margin-left: 60px;
+            }
+            nav ul li a {
+                font-size: 1.6vh;
+            }
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>This is my E magazine</h1>
+    <div class="main">
+        <div style="background-image: url(2.jpg);
+        width: 207vh; height: 97vh; background-size: cover;">     
+    <!--This section is for the navbar-->
+    <div class="box">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="stories.html">STORIES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                
+            </ul>
+        </nav>
+        <h2>THE HAPPY PATH..</h2>
+        <!--This section is for the qoute-->
+         <div class="content">
+            <h1>A happy<br><span>mind</span> is a<br>happy<span> soul</span></h1>
+            <p>Mental Health Matters</p>
+        </div>
+        
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,43 @@
+$bg-color: rgb(41, 41, 78);
+$textcolor: orange;
+$textcolor1: white;
+
+
+* {
+    
+    padding: 1em;
+    background-color: $bg-color;
+}
+.image1 {
+    justify-content: center;
+    float: left;
+}
+p {
+    color: $textcolor;
+    text-align: center;
+}
+.image2 {
+    float: right;
+}li {
+    color: $textcolor;
+    list-style-position: inside;
+}
+button {
+    
+    padding: 6px 18px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid $textcolor1;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+    font-size: small;
+    color: $textcolor1;
+    background-color: orangered;
+}
+button:hover {
+   color: $bg-color;
+}
+h2 {
+    color: $textcolor1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

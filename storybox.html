@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Happy Path</title>
+    <style>
+        
+        nav {
+            
+            width: 55%;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom-right-radius: 20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: ease;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        .box2 {
+            width: 420px;
+            height: 340px;
+            border: 5px solid white;
+            border-radius: 5%;
+            padding: 15px;
+            background:rgb(41, 41, 78);
+            color: white;
+            margin: 40px;
+        }
+        .box2:hover {
+            border: 5px solid orangered;
+        }
+        .box2 h2 {
+            color: orangered;
+            margin-bottom: 30px;
+            margin-top: 1px;
+            text-align: center;
+        }
+        .box2 input {
+            width: 90%;
+            background: transparent;
+            outline: none;
+            border: none;
+            color: white;
+            border-bottom: 2px solid white;
+            letter-spacing: 1px;
+        }
+        .box2 input:hover {
+            border-bottom: 2px solid orangered;
+        }
+        .box2 ::placeholder{
+            color: white;
+            font-size: small;
+            font-family: 'Times New Roman';
+        }
+        .box2 button {
+            margin-top: 30px;
+            padding: 6px 18px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            font-family: 'Times New Roman';
+            font-size: small;
+        }
+        .box2 button:hover {
+            color: white;
+            background: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div style="background-image: url(2.jpg);
+        width: 207vh; height: 97vh; background-size: cover;">     
+    
+    <div class="box">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="stories.html">STORIES</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+    </nav>
+            <div class="box2">
+                <h2>Submit your stories here</h2>
+                <textarea name="" id="" cols="50" rows="14"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
